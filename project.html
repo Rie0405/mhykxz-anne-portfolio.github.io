@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Projects Page -->
+    <section class="projects-page">
+        <div class="projects-header">
+            <a href="index.html" class="back-arrow" aria-label="Back to Home">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+                </svg>
+            </a>
+            <h1 class="projects-title">PROJECTS</h1>
+        </div>
+
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="sketch">Sketch</button>
+            <button class="filter-btn" data-filter="brand-logo">Brand Logo Variations with Mood Board</button>
+            <button class="filter-btn" data-filter="client-based">Client-based Project</button>
+            <button class="filter-btn" data-filter="digital-poster">Digital Poster</button>
+        </div>
+
+        <!-- Projects content will be displayed here -->
+        <div class="projects-content">
+            <!-- Sketch Project -->
+            <div class="project-item active" data-category="sketch">
+                <div class="project-image-large">
+                    <img src="uploads/projects/sketch.png" alt="Apple Sketch">
+                </div>
+                <div class="project-details">
+                    <h2 class="project-category-title">SKETCH</h2>
+                    <p class="project-info-line"><span class="label">Subject :</span> Apple</p>
+                    <p class="project-info-line"><span class="label">Tools :</span> Colored Pencil, Professional Sketch Pencils, Blank Canvas</p>
+                    <p class="project-info-line"><span class="label">Version :</span> Vectorized</p>
+                </div>
+            </div>
+
+            <!-- Brand Logo Variations Project -->
+            <div class="project-item" data-category="brand-logo">
+                <div class="logo-variations-grid">
+                    <div class="logo-item">
+                        <img src="uploads/projects/logo_gecko1.png" alt="Gecko Logo Variation 1">
+                    </div>
+                    <div class="logo-item">
+                        <img src="uploads/projects/logo_gecko2.png" alt="Gecko Logo Variation 2">
+                    </div>
+                    <div class="logo-item">
+                        <img src="uploads/projects/logo_gecko3.png" alt="Gecko Logo Variation 3">
+                    </div>
+                    <div class="logo-item banner">
+                        <img src="uploads/projects/banner_gecko.png" alt="Gecko Banner">
+                    </div>
+                    <div class="logo-item moodboard">
+                        <img src="uploads/projects/gecko.png" alt="Gecko Mood Board">
+                    </div>
+                </div>
+                <div class="project-details">
+                    <h2 class="project-category-title">BRAND LOGO VARIATIONS AND MOOD BOARD</h2>
+                    <p class="project-info-line"><span class="label">Subject :</span> Gecko</p>
+                    <p class="project-info-line"><span class="label">Product :</span> Badge Logo, Icon Logo, Vertical Logo, Horizontal Logo, Mood Board</p>
+                    <p class="project-info-line"><span class="label">Project aim :</span> Create various logo for the Geko Sanctuary.</p>
+                    <p class="project-info-line"><span class="label">Description :</span> The project used the Gecko animal to symbolize life and as well as provide an impression for the animal sanctuary. The green palette was further used to symbolize nature.</p>
+                    <p class="project-info-line"><span class="label">Tool:</span> Canva</p>
+                </div>
+            </div>
+
+            <!-- Client-based Project -->
+            <div class="project-item" data-category="client-based">
+                <div class="logo-variations-grid">
+                    <div class="logo-item">
+                        <img src="uploads/projects/brewhaven_logo1.png" alt="Brew Haven Logo 1">
+                    </div>
+                    <div class="logo-item">
+                        <img src="uploads/projects/brewhaven_logo2.png" alt="Brew Haven Logo 2">
+                    </div>
+                    <div class="logo-item">
+                        <img src="uploads/projects/brewhaven_logo3.png" alt="Brew Haven Logo 3">
+                    </div>
+                    <div class="logo-item banner">
+                        <img src="uploads/projects/banner_brewhaven.png" alt="Brew Haven Banner">
+                    </div>
+                    <div class="logo-item moodboard">
+                        <img src="uploads/projects/brew_haven.png" alt="Brew Haven Full Design">
+                    </div>
+                </div>
+                <div class="project-details">
+                    <h2 class="project-category-title">CLIENT BASED PROJECT</h2>
+                    <p class="project-info-line"><span class="label">Products :</span> Logo, Social Media Post, Banner Ads, Newsletter, Landing Page</p>
+                    <p class="project-info-line"><span class="label">Tool :</span> Canva</p>
+                </div>
+            </div>
+
+            <!-- Digital Poster Project -->
+            <div class="project-item" data-category="digital-poster">
+                <div class="project-image-large">
+                    <img src="uploads/projects/poster.png" alt="Read A Book Digital Poster">
+                </div>
+                <div class="project-details">
+                    <h2 class="project-category-title">DIGITAL POSTER</h2>
+                    <p class="project-info-line"><span class="label">Theme :</span> Comics</p>
+                    <p class="project-info-line"><span class="label">Product :</span> Digital Poster for Academic use.</p>
+                    <p class="project-info-line"><span class="label">Description :</span> The comics themed poster is created to unlock interest together with visual nostalgia to trigger interest.</p>
+                    <p class="project-info-line"><span class="label">Tool :</span> Canva</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
